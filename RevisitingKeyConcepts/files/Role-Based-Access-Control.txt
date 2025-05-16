@@ -1,0 +1,11 @@
+Implement a secure role and permission system to manage user access across the platform. The task includes:
+
+Installation and configuration of Spatie’s Permission package.
+
+Creating default roles: Admin, Teacher, Student.
+
+Assigning permissions to roles (e.g., Admin can access everything, Teacher can manage students, Student can only view).
+
+Middleware setup to restrict routes.
+
+User role assignment at the time of registration or from admin panel.

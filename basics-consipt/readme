@@ -1,0 +1,105 @@
+
+================================================
+Node.js Basics:
+Introduction to Node.js.
+Installing Node.js and npm.
+Working with modules.
+File system operations.
+understanding HTTP module
+
+
+
+
+
+================================================
+js se backend nahi ban sakta
+kyuki js ke paas wo functionalities nahi hai j inse backend banta hai
+ryan dahl isne socha js se backend banna chahiye
+google chrome ka v8 engine ka code open source hai and ryan dahl us code mein
+chhedkhaani kar raha hai
+kyuki chrome ka v8 engine bana hai c++ mein
+fir usne socha ki humein to js mein code karna hai
+
+
+hum js ka code likhege jo ki wrapper layer of js receive karegi and wo code v8
+ngine ke c++ modules ke saath ek server create krega
+
+
+
+===================================================
+Node.js Basics:
+
+Introduction to Node.js.
+Installing Node.js and npm.
+
+node & npm
+working with node and npm
+npm init
+node basic usage
+
+Working with modules.
+File system operations.
+understanding HTTP module
+
+
+========
+npm init —> package.json —> lekha jokha of the project
+
+
+
+
+
+
+
+
+
+
+=====================================================
+internet par kuchh bhi karne ke I iye rules banaaye gaye hai unke
+dwaara jinhone internet banaaya hai, ab un rules ko follow karna
+jaruri hai, aur ye rules follow ho isliye ye rules aap ke operating
+system ke software mein pre installed aate hai
+
+1 http— protocol
+2 yahi protocol hai naa hi kuchh bhej ya rule hai jisko follow kare bina
+    sakte ho, naa hi kuchh manga sakte aap internet pe ho
+
+
+
+// ===================================================================
+### Express. js Framework:
+
+#### Introduction to Express.js.
+
+// express js ek npm package hai
+// framework
+// manages everything from receiving the request and givving the response
+
+
+// Setting up a basic Express application.
+// Routing.
+
+
+### Middleware.
+=======
+jab bhi server request accept karta hai waha se route ke beech pahuchne tak
+agar aap us request ko beech me rokte ho and kuchh perform karte ho, to ye
+element middleware kehlaata hai
+
+// Request and response handling.
+// Error handling.
+
+
+form handling and working with the forms
+handle acken process of forms and making sure the data coming from any frontend
+lib, fw, templating engines, we still handle it at the acken
+
+### session - cookie
+
+hum log kuchh bhi data frontend par browser par rakh skte hai and jab bhi aap kuchh
+bhi request backend par karoge wo fe par saved data automatically backend par chala
+jaayega
+
+
+tumne to bheja tha plain text par server ko mila blob which is not directly readable
+ab is cheej ko hanld karna padega ki hum us blob ko waapas se readable kar sak

@@ -1,0 +1,16 @@
+{
+  "name": "masterejs",
+  "version": "1.0.0",
+  "description": "initialize a project with npm\r express install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}

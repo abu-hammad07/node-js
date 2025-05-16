@@ -1,0 +1,1 @@
+Use Laravel’s built-in authentication system to handle user registration, login, logout, and password reset functionalities.

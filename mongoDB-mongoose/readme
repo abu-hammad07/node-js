@@ -1,0 +1,35 @@
+
+## Data Storage:
+    aisa kuchh jaha par hum saare users ki info store kar skte hai
+    database
+
+## TYPES OF DBS - SQL I NoSQL
+    SQL - data ko ek roop mein rakhna — tables
+
+    NoSQL - MongoDB
+
+## what and why
+    terminologies — collections, documents, schemas, keys, models
+
+    Database —> Collections —> Document
+    
+    CODE
+    ----------------------------------------------------------------
+
+
+    CODE                        DATABASE
+    ----------------------------------------------------------------
+    mongoose. connect       ->      Database Create
+    model create            ->      Collection
+    CREATE code             ->      document
+
+
+
+### mongodb installation
+### mongodb connection
+### schema
+### model
+### crud
+
+ORM -> Object Relational Mapping
+ODM -> Object Document Mapping

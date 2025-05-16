@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="main w-full min-h-screen bg-zinc-900 text-zinc-100">
+        <div class="form p-10">
+            <!-- show the errors -->
+            <% if(error && error.length > 0) { %>
+                <div class="toast text-white p-3 rounded-md bg-red-600 mt-3 mb-3">
+                    <p><%= error[0] %></p>
+                </div>
+            <% } %>
+            <div class="nav">
+                <a class="text-blue-500 inline-block mt-3" href="/read">Read Users</a>
+            </div>
+            <h1 class="text-3xl font-bold mb-3">Update User</h1>
+            <form action="/update/<%= user._id %>" method="POST">
+                <input class="block outline-none rounded-lg w-1/4 border-2 border-zinc-800 px-5 py-2 bg-transparent" type="text"
+                    name="name" placeholder="User Name" value="<%= user.name %>">
+                <input class="block outline-none rounded-lg w-1/4 border-2 border-zinc-800 mt-3 px-5 py-2 bg-transparent"
+                    type="email" name="email" placeholder="User Email" value="<%= user.email %>">
+                <input class="block outline-none rounded-lg w-1/4 border-2 border-zinc-800 mt-3 px-5 py-2 bg-transparent"
+                    type="text" name="image" placeholder="User Image" value="<%= user.image %>">
+                    <% if(user.image){ %>
+                        <img class="w-1/6 mt-3" src="<%= user.image %>" alt="">
+                    <% } %>
+                <input class="mt-2 bg-blue-600 px-5 py-2 rounded-md" type="submit" value="Update User">
+            </form>
+        </div>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+This task involves developing a secure user registration and login system for the application. The system must include:
+
+Registration form with fields: name, email, password, confirm password.
+
+Login form with email and password.
+
+Password hashing using Laravel’s built-in authentication.
+
+Error handling for invalid credentials and form validation.
+
+Redirecting authenticated users to the dashboard.
+
+Logout functionality.
+
+Use Laravel Breeze or Laravel UI (as per project requirement).

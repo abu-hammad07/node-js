@@ -1,0 +1,42 @@
+# Master EJS, Dynamic Routing & Project Setup
+
+- initialize a project with npm
+  ```javascript
+  npm init -y
+  ```
+- express install
+  ```javascript
+  npm i express
+  ```
+
+## Dynamic routing
+
+- setting up parsers for form
+
+  ```javascript
+  app.use(express.json());
+  app.use(express.urlencoded({ extended: true }));
+  ```
+
+- setting up ejs for fjs pages
+
+  - install ejs from npm
+
+  ```javascript
+  npm i ejs
+  ```
+
+  - setup ejs as a middlware for view engine
+
+  ```javascript
+  app.set("view engine", "ejs");
+  ```
+
+- etting up public static files
+
+  ```javascript
+  app.use(express.static(Path2D.join(__dirname, "public")));
+  ```
+
+- dynamic routing
+- how to get data coming from frontend at backend route

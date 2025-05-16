@@ -1,0 +1,15 @@
+Create a fully functional student management module that includes:
+
+Add new student form with fields: Full Name, Roll Number, Class, Section, Gender, Date of Birth, Admission Date, Contact Info, and Address.
+
+View list of all students with pagination and search.
+
+Edit student information.
+
+Delete student record with confirmation.
+
+Export student list as PDF and Excel.
+
+Optionally, upload student profile pictures.
+
+Validation and error handling included.
