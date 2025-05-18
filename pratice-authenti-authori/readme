@@ -1,0 +1,19 @@
+## Authentication & Authorization | Bcrypt | JWT
+
+    user ko profile dene se pahle ye check karna hota hai ke user hai kaun
+
+    Authorized to perform some tasks which are only allowed to be executed by the admin
+
+    server har baar bhool jata hai ki aap kaun ho, ab kyuki server bhool jaata hai aap kaun ho to har baar wo har kaam ke I iye aapse puchhega aap kaun ho
+
+### sabse pahle humein kuchh cheejein seekhni hai a lag a lag
+
+    i) cookie kaise set karte hai
+    ii) bcrypt kaise use karte hai for password encrytption and decryption
+    iii) jwt kya hai and jwt mein data kaise store karein and baahar nikaaleio
+
+Install the JWT bcrypt command
+
+```javascript
+npm i jsonwebtoken bcrypt
+```
